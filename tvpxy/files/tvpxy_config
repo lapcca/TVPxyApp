@@ -1,0 +1,4 @@
+config tvpxy
+        option disabled '0'
+        option net 'eth4'
+        option port '5555'

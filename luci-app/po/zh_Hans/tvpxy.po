@@ -1,0 +1,32 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8"
+
+
+#: applications/luci-app-tvpxy/htdocs/luci-static/resources/view/tvpxy.js:9
+msgid ""
+"tvpxy"
+msgstr ""
+
+#: applications/luci-app-tvpxy/htdocs/luci-static/resources/view/tvpxy.js:10
+msgid ""
+"TVPxy is a light-weight proxy server. It can retrieve the RTP streams "
+"and forward it to internal LAN over HTTP. "
+msgstr ""
+
+#: applications/luci-app-tvpxy/htdocs/luci-static/resources/view/tvpxy.js:12
+msgid "Add instance"
+msgstr ""
+
+
+#: applications/luci-app-tvpxy/htdocs/luci-static/resources/view/tvpxy.js:16
+msgid "Enable"
+msgstr ""
+
+
+#: applications/luci-app-tvpxy/htdocs/luci-static/resources/view/tvpxy.js:22
+msgid "Port"
+msgstr ""
+
+#: applications/luci-app-tvpxy/htdocs/luci-static/resources/view/tvpxy.js:25
+msgid "Rtp Source interface"
+msgstr ""

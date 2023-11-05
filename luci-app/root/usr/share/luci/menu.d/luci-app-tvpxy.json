@@ -1,0 +1,20 @@
+{
+	"admin/services/tvpxy": {
+		"title": "tvpxy",
+		"action": {
+			"type": "view",
+			"path": "tvpxy"
+		},
+		"depends": {
+			"acl": [
+				"luci-app-tvpxy"
+			],
+			"uci": {
+				"tvpxy": true
+			},
+			"fs": {
+				"/tmp/upload/tvpxy": "executable"
+			}
+		}
+	}
+}

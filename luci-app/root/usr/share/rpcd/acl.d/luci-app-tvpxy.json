@@ -1,0 +1,25 @@
+{
+	"luci-app-tvpxy": {
+		"description": "Grant UCI access for luci-app-tvpxy",
+		"read": {
+			"uci": [
+				"tvpxy"
+			],
+			"file": {
+				"/tmp/upload/tvpxy": [
+					"exec"
+				]
+			}
+		},
+		"write": {
+			"uci": [
+				"tvpxy"
+			],
+			"file": {
+				"/tmp/upload/tvpxy": [
+					"exec"
+				]
+			}
+		}
+	}
+}
