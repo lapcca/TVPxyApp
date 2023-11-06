@@ -28,7 +28,7 @@ define Build/Prepare
 endef
 
 define Build/Compile
-  $(PKG_BUILD_DIR)/build.sh
+  $(MAKE)
 endef
 
 define Package/tvpxy/install
