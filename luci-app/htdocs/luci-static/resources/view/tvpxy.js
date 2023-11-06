@@ -13,7 +13,7 @@ return view.extend({
 		s.anonymous = true;
 		s.addremove = true;
 
-		o = s.option(form.Flag, 'disabled', _('Enabled'));
+		o = s.option(form.Flag, 'enabled', _('Enabled'));
 		o.enabled = '0';
 		o.disabled = '1';
 		o.default = o.disabled;
