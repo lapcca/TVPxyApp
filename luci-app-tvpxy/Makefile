@@ -25,7 +25,7 @@ PKG_DATE:=20231105
 
 
 # 加载相关规则文件，必需。
-include $(TOPDIR)/feeds/luci.mk
+include $(TOPDIR)/feeds/luci/luci.mk
 
 # 下面一行是 Luci 界面专用调用标识，必需，如果缺失会导致不会被加入 OpenWrt 的编译菜单中。
 # call BuildPackage - OpenWrt buildroot signature
