@@ -15,7 +15,7 @@ include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
 define Package/tvpxy
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=TV Proxy
+  TITLE:=Core TV Proxy
   DEPENDS:=+golang
 endef
 
@@ -24,7 +24,6 @@ define Package/tvpxy/description
 endef
 
 define Build/Prepare
-  $(CP) ./src/* $(PKG_BUILD_DIR)/
 endef
 
 define Build/Compile
