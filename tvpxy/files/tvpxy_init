@@ -16,8 +16,8 @@ get_config() {
 
 start_service() {
     config_load $NAME
-    config_foreach get_config server
-    [ $enable != "1" ] && return 1
+    config_foreach get_config $NAME
+    [ $enabled != "1" ] && return 1
 
     echo "SERVICE $NAME START"
 
