@@ -33,12 +33,6 @@ start_service() {
     procd_close_instance
 }
 
-stop_service() {
-    echo "SERVICE $NAME STOP"
-    rm -f /var/run/${NAME}.pid
-    killall $NAME
-}
-
 reload_service() {
     echo "SERVICE $NAME RELOAD"
     stop
